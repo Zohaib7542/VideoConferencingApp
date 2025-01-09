@@ -1,0 +1,34 @@
+{
+  "name": "zoom-clone",
+  "version": "1.0.0",
+  "description": "Credit to [Web Dev Simplified](https://www.youtube.com/watch?v=DvlyzDZDEq4)",
+  "keywords": [],
+  "homepage": "https://github.com/CleverProgrammers/nodejs-zoom-clone#readme",
+  "bugs": {
+    "url": "https://github.com/CleverProgrammers/nodejs-zoom-clone/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CleverProgrammers/nodejs-zoom-clone.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "peer": "^0.5.3",
+    "peerjs": "^1.5.4",
+    "socket.io": "^2.5.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/socket.io": "^3.0.1"
+  }
+}
